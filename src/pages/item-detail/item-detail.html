@@ -12,7 +12,7 @@
   </div>
 
   <div class="item-detail" padding>
-    <h2><a href="https://www.google.co.jp/search?q={{item.name}}">{{item.name}}</a></h2>
+    <h2><a (click)="openUrl(item.name)" href="#" class="inapp-link">{{item.name}}</a></h2>
     <p>{{item.about}}</p>
   </div>
 </ion-content>
