@@ -35,3 +35,6 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 /nbproject/private/
 nbproject/
+
+GoogleService-Info.plist
+google-services.json
